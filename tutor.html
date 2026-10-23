@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>LinguaTalk — Профиль репетитора</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="tutor-page">
+
+  <header class="top-bar">
+    <button class="top-bar__back" aria-label="Назад">←</button>
+    <h1 class="top-bar__title">Репетитор</h1>
+    <button class="top-bar__action" aria-label="Поделиться">↗</button>
+  </header>
+
+  <main class="app-main">
+
+    <section class="profile">
+      <img src="assets/tutor.svg" alt="Мария Коваль" class="profile__img">
+      <h2 class="profile__name">Мария Коваль</h2>
+      <p class="profile__role">Сертифицированный преподаватель</p>
+      <div class="profile__tags">
+        <span class="badge badge--blue">Английский</span>
+        <span class="badge badge--outline">Русский</span>
+      </div>
+      <div class="profile__stats">
+        <div class="stat">
+          <span class="stat__value">★ 4.9</span>
+          <span class="stat__label">рейтинг</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">6 лет</span>
+          <span class="stat__label">опыт</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">1 400 ₽</span>
+          <span class="stat__label">за 55 мин</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">О преподавателе</h2>
+      <p class="text">Помогаю уверенно говорить по-английски без страха ошибок. На уроках много практики, живой грамматики и материалов под ваши цели.</p>
+      <a href="#" class="form-link">Показать полностью</a>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">Доступное расписание <span class="section__sub">МСК</span></h2>
+      <div class="schedule">
+        <button class="schedule__day schedule__day--active">
+          <span class="schedule__num">26</span>
+          <span class="schedule__label">сб</span>
+        </button>
+        <button class="schedule__day">
+          <span class="schedule__num">27</span>
+          <span class="schedule__label">вс</span>
+        </button>
+        <button class="schedule__day">
+          <span class="schedule__num">28</span>
+          <span class="schedule__label">пн</span>
+        </button>
+        <button class="schedule__day">
+          <span class="schedule__num">29</span>
+          <span class="schedule__label">вт</span>
+        </button>
+      </div>
+      <div class="time-slots">
+        <button class="time-slot">10:00</button>
+        <button class="time-slot">13:30</button>
+        <button class="time-slot time-slot--active">18:30</button>
+        <button class="time-slot">20:00</button>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">Материалы и видеоуроки</h2>
+      <article class="material">
+        <span class="material__icon">▶</span>
+        <div class="material__body">
+          <h3 class="material__title">Произношение без акцента</h3>
+          <p class="material__meta">Видеоурок · 18 мин</p>
+        </div>
+      </article>
+      <article class="material">
+        <span class="material__icon">📄</span>
+        <div class="material__body">
+          <h3 class="material__title">Фразы для путешествий</h3>
+          <p class="material__meta">PDF · 24 карточки</p>
+        </div>
+      </article>
+    </section>
+
+    <button class="btn btn--primary btn--sticky">Записаться на урок · 1 400 ₽</button>
+    <p class="text text--center text--muted">Бесплатная отмена за 12 часов до начала</p>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">© 2025 LinguaTalk</p>
+  </footer>
+
+  <nav class="bottom-nav">
+    <a href="catalog.html" class="bottom-nav__item">
+      <span class="bottom-nav__icon">🏠</span>
+      <span class="bottom-nav__label">Главная</span>
+    </a>
+    <a href="catalog.html" class="bottom-nav__item">
+      <span class="bottom-nav__icon">📚</span>
+      <span class="bottom-nav__label">Каталог</span>
+    </a>
+    <a href="#" class="bottom-nav__item bottom-nav__item--active">
+      <span class="bottom-nav__icon">👥</span>
+      <span class="bottom-nav__label">Репетиторы</span>
+    </a>
+    <a href="#" class="bottom-nav__item">
+      <span class="bottom-nav__icon">👤</span>
+      <span class="bottom-nav__label">Профиль</span>
+    </a>
+  </nav>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
